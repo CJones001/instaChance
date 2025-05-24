@@ -32,7 +32,7 @@ return [
     'connections' => [
         'mongodb' => [
             'driver' => 'mongodb',
-            'dsn' => env(key: 'DB_URI'),
+            'dsn' => env('DB_URI'),
             'database' => env('DB_DATABASE', 'instagram-clone'),
         ],
         'sqlite' => [
